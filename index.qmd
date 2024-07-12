@@ -9,5 +9,3 @@ In this project we aim to visualize the trends of the most frequently used babyn
     -   girls
     -   boys
 -   Plot the yearly trend of the top 10 baby names
-
-![image_alt_text](https://openclipart.org/download/181638/baby-boy-and-girl.svg) {fig-align="right" width=400}
