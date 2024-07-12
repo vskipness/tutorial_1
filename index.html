@@ -146,7 +146,6 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>Plot the yearly trend of the top 10 baby names</li>
 </ul>
-<p><img src="https://openclipart.org/download/181638/baby-boy-and-girl.svg" class="img-fluid" alt="image_alt_text"> {fig-align=“right” width=400}</p>
 
 
 
@@ -243,7 +242,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/vskipness\.github\.io\/tutorial_1\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
